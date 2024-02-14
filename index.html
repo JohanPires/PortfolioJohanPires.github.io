@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Johan Pires</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="menu">
+        <div class="span" id="one"></div>
+        <div class="span" id="two"></div>
+        <div class="span" id="three"></div>
+      </div>
+      <h2>PORTFOLIO</h2>
+      <ul>
+        <li><a id="homeLink" href="#header-container">ACCUEIL</a></li>
+        <li><a id="skillsLink" href="#skills-container">COMPETENCES</a></li>
+        <li><a id="projectLink" href="#project-container">PROJETS</a></li>
+        <li><a id="contactLink" href="#contact-container">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header id="header-container">
+      <div class="text-container">
+        <h1>JOHAN PIRES</h1>
+        <h2>Formation Développeur Web</h2>
+        <p>
+          je suis actuellement en formation de développeur et à la recherche
+          d’un stage
+        </p>
+        <a href="#project-container" id="projectButton"> PROJETS </a>
+      </div>
+    </header>
+    <div id="skills-container">
+      <div class="left-part">
+        <h3><span>A PROPOS </span>DE MOI</h3>
+        <p>
+          Je suis une personne très motivé, dinamique et curieuse qui cherche
+          toujours à apprendre de nouvelle choses et qui à découvert le domaine
+          du développement web depuis maintenant quelque mois.
+        </p>
+        <p>
+          Les compétences dans les language, libraries, et logiciels que j'ai
+          actuellement je les ai acquise en majorité en autodidacte.
+        </p>
+      </div>
+      <div class="right-part">
+        <h3><span>COMPETENCES</span> NUMERIQUE</h3>
+
+        <div class="skills">
+          <div class="lang" id="html">
+            <span>HTML</span>
+            <div class="after"></div>
+          </div>
+          <div class="lang" id="css">
+            <span>CSS</span>
+            <div class="after"></div>
+          </div>
+          <div class="lang" id="javascript">
+            <span>JavaScript</span>
+            <div class="after"></div>
+          </div>
+          <div class="lang" id="bootstrap">
+            <span>Bootstrap</span>
+            <div class="after"></div>
+          </div>
+          <div class="lang" id="react">
+            <span>React</span>
+            <div class="after"></div>
+          </div>
+          <div class="lang" id="git">
+            <span>GitHub</span>
+            <div class="after"></div>
+          </div>
+          <div class="lang" id="figma">
+            <span>Figma</span>
+            <div class="after"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-container">
+      <h3><span>MES</span> PROJETS</h3>
+      <div class="projects">
+        <a
+          href="https://application-film-1.netlify.app/"
+          class="project"
+          id="cine-app"
+        ></a>
+        <a
+          href="https://watchcryptov1.netlify.app/"
+          class="project"
+          id="crypto-app"
+        ></a>
+        <a
+          href="https://portfolio-johanpires.netlify.app/"
+          class="project"
+          id="portfolio"
+        ></a>
+      </div>
+    </div>
+
+    <div id="contact-container">
+      <h3><span>ME</span> CONTACTER</h3>
+      <form action="">
+        <input type="text" id="name" placeholder="Nom" />
+        <input type="text" id="email" placeholder="Email" />
+        <textarea id="message" placeholder="Entrer votre message"></textarea>
+        <input type="submit" />
+      </form>
+    </div>
+
+    <div class="social-container">
+      <a href="https://github.com/JohanPires" class="social" id="github">
+        <i class="fa-brands fa-github"></i>
+        <span>Git Hub</span>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/johan-pires-365145244/"
+        class="social"
+        id="linkedin"
+      >
+        <i class="fa-brands fa-linkedin-in"></i>
+        <span>Linkedin</span>
+      </a>
+      <div href="" class="social" id="mail">
+        <i class="fa-solid fa-phone"></i>
+        <span>06 88 63 53 37</span>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
